@@ -80,7 +80,7 @@ keys.forEach(key=>{
         if(check === 'reset'){
             numbers = '';
             screen.textContent  = numbers;
-            screnprev.textContent = previous;
+            screnprev.textContent = numbers;
         }
         if(check === 'operator'){
             operators = key.textContent; 
