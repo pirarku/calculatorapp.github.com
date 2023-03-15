@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Calculator app</title>
+  <script src="script.js" defer></script>
+
+</head>
+<body class="body">
+   <main class="card">
+        <div class="top top2">
+           <p>calc</p> 
+           <div class="theme">
+              <p class="lbl-theme">THEME</p>
+              <div class="switch">
+                <div class="numTheme">
+                  <p class="num one" data-value="1">1</p>
+                  <p class="num two" data-value="2">2</p>
+                  <p class="num three" data-value="3">3</p>
+                 </div>
+                <div class="circle">
+                      <div class="ball active"></div>
+                      <div class="ball twos "></div>
+                      <div class="ball threes "></div>
+                </div>
+              </div>
+           </div>
+        </div>
+          <!-- <input type="text" class="center"> -->
+          <div class="center">
+            <div class="numbercontainer">
+              <!-- <p id="previous">0</p> -->
+              <!-- <input type="text" placeholder=" " id="previous" class="input" disabled>
+              <input type="text" placeholder=" " id="screen" class="input" disabled> -->
+              <p id="previous" class="input"></p>
+              <p id="screen" class="input"></p>
+            </div>
+          </div>
+       
+        <div class="bottom bottom2">
+            <div class="keybutton">
+             <p class="keys" data-set="number">7</p>
+             <p class="keys" data-set="number">8</p>
+             <p class="keys" data-set="number">9</p>
+             <p class="keys" data-set="delete">DEL</p>
+             <p class="keys" data-set="number">4</p>
+             <p class="keys" data-set="number">5</p>
+             <p class="keys" data-set="number">6</p>
+             <p class="keys" data-set="operator">+</p>
+             <p class="keys" data-set="number">1</p>
+             <p class="keys" data-set="number">2</p>
+             <p class="keys" data-set="number">3</p>
+             <p class="keys" data-set="operator">-</p>
+             <p class="keys" data-set="number">.</p>
+             <p class="keys" data-set="number">0</p>
+             <p class="keys" data-set="operator">/</p>
+             <p class="keys" data-set="operator">x</p>  
+            </div>
+            <div class="keybutton">
+              <p class="keys"  data-set="reset">RESET</p>
+              <p class="keys" data-set="equals">=</p>
+            </div>      
+        </div>
+   </main>
+</body>
+</html>
